@@ -1,0 +1,25 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.footer-icons {
+  font-size: 50px;
+}
+
+.footer-icons:hover {
+  cursor: pointer;
+}
