@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -42,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -95,7 +95,7 @@ p {
 }
 
 .content {
-  padding: 160px 20px;
+  padding: 60px 20px;
   margin: 30px;
 }
 
@@ -119,10 +119,21 @@ p {
   font-size: 14px;
 }
 
-.content .headshot-image {
-  width: 560px 100%;
-  height: 560px;
+.content-container .headshot-image {
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
+}
+
+.contact-links a,
+.source-code-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.contact-links a:hover,
+.source-code-link:hover {
+  color: black;
 }
 
 footer {
@@ -174,12 +185,8 @@ footer .social-links a:hover {
     font-size: 42px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
